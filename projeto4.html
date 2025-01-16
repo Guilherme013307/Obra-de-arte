@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page com Imagem e Saiba Mais</title>
+    <style>
+        /* Estilos básicos */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Container principal */
+        .hero-section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Estilos do título */
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        /* Estilos da descrição */
+        .hero-section p {
+            font-size: 1.25rem;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo da imagem */
+        .hero-image {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        /* Botão CTA */
+        .cta-button {
+            padding: 15px 30px;
+            background-color: #fff;
+            color: #4CAF50;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #45a049;
+            color: white;
+        }
+
+        /* Seção de informações */
+        .info-section {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .info-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .info-section p {
+            font-size: 1.25rem;
+            color: #666;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Seção Hero -->
+    <section class="hero-section">
+        <div>
+            <!-- Título -->
+            <h1>Bem-vindo à nossa Landing Page!</h1>
+            <!-- Descrição -->
+            <p>Descubra uma imagem incrível que representa o nosso produto. Não perca a chance de saber mais!</p>
+            <!-- Imagem -->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYUdj-ium80ftJXbJ3wgfw9WNCUJzyZA41Tw&s" alt="Imagem do produto" class="hero-image">
+            <!-- Botão CTA com link para a seção de informações -->
+            <a href="#informacoes" class="cta-button">Saiba Mais</a>
+        </div>
+    </section>
+
+    <!-- Seção de Informações -->
+    <section id="informacoes" class="info-section">
+        <h2>Mais Sobre Nosso Produto</h2>
+        <p>Esta bela imagem foi desenvolvido para atender às necessidades de usuários que buscam simplicidade e eficiência. Ele oferece uma solução prática e eficaz para o seu dia a dia, trazendo benefícios como aumento de produtividade, segurança e inovação.</p>
+        <p>Com recursos exclusivos e uma interface amigável, você pode facilmente integrar nossa ferramenta aos seus processos diários, melhorando a qualidade do seu trabalho e economizando tempo.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV-C2Zoqh48ilqd60hLVWPAJOKGkv99MJ_jg&s" alt="imagem2 do produto" class="hero-image">
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Nome da Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
